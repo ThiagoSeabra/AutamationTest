@@ -1,1 +1,1 @@
-Em caso de erro com o chromedriver basta excluir o arquivo da pasta driver e colocar outro com o nome "chromedriver.exe"
+Foi verificado que atualmente ao rodar múltiplos testes em sequencia pelo testNG ou Junit o primeiro teste e executado corretamente porem os demais ocorrem erros ao salvar o print no PDF devido a instancia do Documents estar fechada -- Ainda estudando métodos de corrigir esse problema --
