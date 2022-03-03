@@ -1,0 +1,1 @@
+Em caso de erro com o chromedriver basta excluir o arquivo da pasta driver e colocar outro com o nome "chromedriver.exe"
