@@ -1,1 +1,1 @@
-Foi verificado que atualmente ao rodar múltiplos testes em sequencia pelo testNG ou Junit o primeiro teste e executado corretamente porem os demais ocorrem erros ao salvar o print no PDF devido a instancia do Documents estar fechada -- Ainda estudando métodos de corrigir esse problema --
+
