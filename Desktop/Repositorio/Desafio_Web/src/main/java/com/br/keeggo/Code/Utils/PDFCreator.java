@@ -10,9 +10,10 @@ import com.lowagie.text.pdf.PdfWriter;
 
 public class PDFCreator {
 	
-	static Document document= new Document();
+	static Document document;
 	
 	public static void GeradorPDF(String fileName) throws DocumentException, IOException {
+		document = new Document();
 		PdfWriter.getInstance(document , new FileOutputStream(System.getProperty("user.dir") + "/evidences/"+ fileName));
 		document.open();
 		
